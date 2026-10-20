@@ -1,12 +1,12 @@
 #include <Arduino.h>
-#include "PullupBlinkerImproved.h"
+#include "LdrAdcLesson.h"
 
 void setup()
 {
-    PullupBlinkerImproved::setup();
+    LdrAdcLesson::setup();
 }
 
 void loop()
 {
-    PullupBlinkerImproved::loop();
+    LdrAdcLesson::loop();
 }
