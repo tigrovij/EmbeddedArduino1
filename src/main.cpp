@@ -1,11 +1,11 @@
-#include "LdrAdcLesson.h"
+#include "EmbeddedBlinker.h"
 
 void setup()
 {
-    LdrAdcLesson::setup();
+    EmbeddedBlinker::setup();
 }
 
 void loop()
 {
-    LdrAdcLesson::loop();
+    EmbeddedBlinker::loop();
 }
