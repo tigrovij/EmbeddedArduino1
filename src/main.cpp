@@ -1,11 +1,11 @@
-#include "EmbeddedBlinker.h"
+#include "SmartStreetLight.h"
 
 void setup()
 {
-    EmbeddedBlinker::setup();
+    SmartStreetLight::setup();
 }
 
 void loop()
 {
-    EmbeddedBlinker::loop();
+    SmartStreetLight::loop();
 }
